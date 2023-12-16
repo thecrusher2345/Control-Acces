@@ -1,4 +1,4 @@
-<?php include('../templates/cabecera2.php'); ?>
+<?php include('../templates/cabecera.php'); ?>
   <main>
   </main>
-  <?php include('../templates/pie2.php'); ?>
+  <?php include('../templates/pie.php'); ?>

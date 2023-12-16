@@ -1,0 +1,467 @@
+*{
+    padding: 0;
+    margin: 0;
+
+
+
+
+    box-sizing: border-box;
+}
+
+.background {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+
+
+    /* Fondo original */
+    background-image: url(../src/img/pexels-johannes-plenio-1103970.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(2px);
+    
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.glass{
+    margin-top: 15px;
+    width: 200%; 
+    height: 39rem;
+    border: 2px solid #fafafa10;
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.1);
+
+
+
+
+
+
+}
+
+.effect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+}
+
+.header{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 7rem;
+    border: solid thin #fff;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Play', sans-serif;
+
+    
+}
+
+.header > .contenido-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 75%;
+
+    font-size: 1.5rem;
+
+}
+.header >.nav{
+    width: 100%;
+    border-top: solid thin gray;
+    padding: 1px;
+    
+}
+
+.nav > .nav-text{
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav > .nav-text a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.contenedor-logo{
+    max-width: 150px;
+    margin: 0 ;
+}
+
+.contenedor-logo > .logo{
+    max-width: 100%;
+    height: auto;
+
+    margin: 0 ;
+    
+}
+
+.header > .nav{
+    display: block;
+}
+.contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+    font-family: 'Athiti', sans-serif;
+    
+    margin-top: 1rem;
+}
+
+.information{
+    width: 30%;
+    height: 100%;
+    border: solid thin #fff;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.1);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.information > .text{
+    margin-top: 5px;
+    border-bottom: solid thin gray;
+}
+
+.information > .form-information{
+    height: 80%; 
+}
+
+.input > .label-input-form{
+    display: flex;
+    padding-bottom: 5px;
+    margin-top: 5px;
+
+}
+
+.input > .input-form{
+    display: flex;
+    padding-bottom: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: solid 1px gray;
+    box-shadow: 3px 5px 2px rgba(0,0,0,.1);
+
+    border-radius: 10px;
+    
+
+}
+
+.input-checkbox{
+    display: flex;
+    margin-top: 5px;
+}
+.input-checkbox > .checkbox {
+    margin-right: 10px;
+}
+
+
+.form-information >.submit-form{
+
+    margin-top: 20px;
+    margin-left: 20px;
+    border: solid #333;
+    background-color: #333;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    width: 10rem;
+
+
+}
+.submit-form:hover{
+    border: solid #6096B4;
+    background-color: #6096B4;
+    color: #333;
+
+}
+
+.table{
+
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    border: solid thin #fff;
+    border-radius: 15px;
+    background-color: aliceblue;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.table > .text{
+
+    width: 100%;
+    height: 10%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    justify-content: space-between;
+    display: flex;
+    border-bottom: solid thin gray;
+}
+
+.table > .table-information{
+
+    width: 100%;
+    height: 90%;
+    margin-top: 7px;
+}
+
+.table > .text > .añadir{
+    color: #fff;
+    background-color: #333;
+    border: 2px solid #fafafa10;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.1);
+    border-radius: 15px;
+    width: 6rem;
+    height: 2.3rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 13px;
+    
+}
+
+.table > .text > .añadir:hover{
+    cursor: pointer;
+    background-color: #6096B4;
+    border: 2px solid #fafafa10;
+    color: #333;
+}
+
+
+
+.acciones > .editar{
+    color: #fff;
+    background-color: #333;
+    border: 2px solid #fafafa10;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.1);
+    border-radius: 15px;
+    width: 6rem;
+    height: 2.3rem;
+    font-size: 1.1rem;
+    padding-right: 13px;
+    margin-right: 2rem;
+
+
+}
+.acciones > .editar:hover{
+    cursor: pointer;
+    background-color: #6096B4;
+    border: 2px solid #fafafa10;
+    color: #333;
+}
+
+
+.acciones > .eliminar{
+    color: #fff;
+    background-color: #333;
+    border: 2px solid #fafafa10;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.1);
+    border-radius: 15px;
+    width: 7rem;
+    height: 2.3rem;
+    font-size: 1.1rem;
+    padding-right: 13px;
+    margin: 0;
+
+}
+
+.acciones > .eliminar:hover{
+    cursor: pointer;
+    background-color: #6096B4;
+    border: 2px solid #fafafa10;
+    color: #333;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+th {
+    background-color: #f2f2f2; /* Color de fondo para el encabezado */
+    color: #333; /* Color del texto */
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ddd; /* Borde inferior */
+}
+
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Borde inferior de celdas no encabezado */
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+tr:hover {
+    background-color: #e5e5e5;
+}
+.table-bordered {
+    border: 1px solid #ddd;
+}
+
+
+.table-spaced td,
+.table-spaced th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.table-shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* diseño de modal*/
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
+  }
+  
+.modal > .modal-content {
+
+
+    background-color: #fefefe;
+    margin-left: 15%;
+  
+    margin-top: 10%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    height: 70%;
+  }
+  
+  /* Estilo para el botón de cerrar (X) */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+  }
+
+/*
+.body{
+
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+
+.contenedor-logo{
+    max-width: 150px;
+    margin: 0 ;
+}
+
+.contenedor-logo > .logo{
+    max-width: 100%;
+    height: auto;
+
+    margin: 0 ;
+}
+
+.header1{
+    background-color: #6096B4;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 81%;
+    text-align: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 3px 5px 3px rgba(0,0,0,.1);
+}
+
+header{
+    height: 20vh;
+    font-family: 'Oswald', sans-serif;
+}
+nav{
+    height: 25%;
+    display: flex;
+    background-color: #6096B4;
+    border-top: solid 3px #fff;
+    align-items: center;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.contenedor-user-count{
+    font-size: 2rem;
+    margin-right: 1%;
+    cursor: pointer;
+
+
+}
+
+.user-count{
+    text-decoration: none;
+    color: inherit;
+}
+*/
+    
+
+
+
+/*continuar con el header solo me falta deffinir mejor el tamaño y demas*/
